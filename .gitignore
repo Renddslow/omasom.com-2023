@@ -1,0 +1,7 @@
+public
+/resources
+node_modules
+.env
+/static/*.js
+.idea
+yarn-error.log*

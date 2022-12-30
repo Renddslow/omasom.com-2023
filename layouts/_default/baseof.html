@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <title>{{ partial "title.html" . }}</title>
+        <meta charset="utf-8">
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no">
+        <script src="https://kit.fontawesome.com/70268be1d2.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        {{ $style := resources.Get "styles/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+        <link rel="stylesheet" href="{{ $style.Permalink }}">
+        {{ block "meta" . }}
+        {{ end }}
+        <meta name="title" content='{{ partial "title.html" . }}'>
+        <meta name="description" content="Biblically-centered, ministry-driven, accredited school of ministry based in West Omaha.">
+        <link rel="canonical" href="https://omasom.com">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://omasom.com/">
+        <meta property="og:title" content='{{ partial "title.html" . }}'>
+        <meta property="og:description" content="Biblically-centered, ministry-driven, accredited school of ministry based in West Omaha.">
+        <meta property="og:image" content="/fc-jumbo.jpeg">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://omasom.com/">
+        <meta property="twitter:title" content='{{ partial "title.html" . }}'>
+        <meta property="twitter:description" content="Biblically-centered, ministry-driven, accredited school of ministry based in West Omaha.">
+        <meta property="twitter:image" content="/fc-jumbo.jpeg">
+        <script src="https://js.churchcenter.com/modal/v1"></script>
+        <!-- Facebook Pixel Code -->
+        <script>
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                n.queue=[];t=b.createElement(e);t.async=!0;
+                t.src=v;s=b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t,s)}(window, document,'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '704368560345680');
+            fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=704368560345680&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->
+    </head>
+    <body>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "CollegeOrUniversity",
+                "name": "Omaha School of Ministry",
+                "alternateName": "OSM",
+                "url": "https://omasom.com",
+                "logo": "",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+14024929111",
+                    "contactType": "",
+                    "areaServed": "US",
+                    "availableLanguage": "en"
+                },
+                "sameAs": [
+                    "https://facebook.com/flatlandchurchomaha",
+                    "https://twitter.com/flatlandchurch",
+                    "https://instagram.com/flatlandchurch"
+                ]
+            }
+        </script>
+        {{ partial "header.html" . }}
+        {{ block "main" . }}
+        {{ end }}
+        {{ partial "footer.html" . }}
+        <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+        <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""/></noscript>
+    </body>
+</html>
