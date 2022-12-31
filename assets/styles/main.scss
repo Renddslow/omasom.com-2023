@@ -6,4 +6,28 @@
     'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
+:root {
+  --text-color: #1b1819;
+  --accent: #a62e1e;
+  --blue: #2c8c99;
+  --orange: #ff9f1c;
+}
+
+body {
+  color: var(--text-color);
+}
+
+.narrow {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.full-width {
+  width: 100%;
+  padding: 24px;
+}
+
 @import 'header';
+@import 'footer';
+@import 'content';
+@import 'home';

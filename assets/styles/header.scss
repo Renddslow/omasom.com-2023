@@ -2,7 +2,7 @@ header {
   max-width: 960px;
   margin: 0 auto;
   width: 100%;
-  padding: 90px 0 60px;
+  padding: 90px 24px 60px;
   display: grid;
   grid-template-columns: minmax(0, max-content) minmax(0, max-content);
   justify-content: space-between;
@@ -15,8 +15,46 @@ header * {
 
 nav {
   display: grid;
+  margin-bottom: 4px;
+  grid-gap: 24px;
+  justify-content: end;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.sub-nav {
+  margin-left: auto;
+  display: grid;
   grid-auto-flow: column;
-  grid-gap: 16px;
+  grid-gap: 12px;
+  align-items: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  a {
+    color: var(--blue);
+  }
+}
+
+.search-button {
+  padding: 10px 16px 10px 10px;
+  background: var(--accent);
+  color: #fff !important;
+  display: grid;
+  grid-template-columns: minmax(0, max-content) minmax(0, 1fr);
+  align-items: center;
+  grid-gap: 8px;
+}
+
+nav .main-nav {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 32px;
+  font-size: 18px;
+  font-weight: 600;
+
+  a {
+    color: var(--text-color);
+  }
 }
 
 #logo h1 {

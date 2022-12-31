@@ -1,6 +1,106 @@
-{{ define "title" }}
-Omaha School of Ministry
-{{ end }}
-
-{{ define "main" }}
+{{ define "title" }} Omaha School of Ministry {{ end }} {{ define "main" }}
+<div class="narrow tagline">
+  <div class="tagline-box">
+    <h2>{{ .Params.Tagline | safeHTML }}</h2>
+    <p>{{ .Params.TheologyStatement }}</p>
+  </div>
+  <img
+    src="{{ .Params.Image }}"
+    alt="Omaha School of Ministry's campus shared with Flatland Church"
+  />
+</div>
+<section class="full-width apply-banner">
+  <a href="/apply">Apply for {{ .Params.NextAcademicPeriod }}</a>
+</section>
+<section class="narrow campus-life">
+  <h2>Life at Omaha School of Ministry</h2>
+  <p>{{ .Params.CampusLife }}</p>
+  <div class="grid">
+    <a href="/omaha" class="box">
+      <img
+        src="https://images.unsplash.com/photo-1519766030446-ae88fde27309?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80"
+        alt="Henry Doorly zoo in Omaha"
+      />
+      <h3>Living in Omaha</h3>
+    </a>
+    <a href="/spiritual-life" class="box">
+      <img
+        src="https://images.unsplash.com/photo-1526746323784-6bc814d79273?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80"
+        alt="Prayer service"
+      />
+      <h3>Spiritual Life</h3>
+    </a>
+    <a href="/student-experience" class="box">
+      <img
+        src="https://images.unsplash.com/photo-1549057446-9f5c6ac91a04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80"
+        alt="Students walking on campus"
+      />
+      <h3>Student Experience</h3></a
+    >
+  </div>
+</section>
+<section class="full-width testimony">
+  <div class="content">
+    <div class="quote">
+      <p>&ldquo;{{ .Params.Testimony.Content }}&rdquo;</p>
+      <span
+        >{{ .Params.Testimony.Name }}, {{ .Params.Testimony.Year }} {{ .Params.Testimony.Track
+        }}</span
+      >
+    </div>
+    <div class="">
+      <iframe
+        src="https://player.vimeo.com/video/{{ .Params.Testimony.Src }}?h=d0d8186058&title=0&byline=0&portrait=0"
+        width="640"
+        height="360"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
+</section>
+<section class="narrow campus-life">
+  <h2>Producing Highly-Qualified Ministers</h2>
+  <p>{{ .Params.Academics }}</p>
+  <div class="grid">
+    <a href="/omaha" class="box">
+      <img
+        src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80"
+        alt="Students in a classroom"
+      />
+      <h3>Academics</h3>
+    </a>
+    <a href="/spiritual-life" class="box">
+      <img
+        src="https://images.unsplash.com/photo-1520857014576-2c4f4c972b57?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80"
+        alt="Ordination service"
+      />
+      <h3>Credentialing &amp; Ordination Track</h3>
+    </a>
+    <a href="/student-experience" class="box">
+      <img
+        src="https://live.staticflickr.com/65535/52404165552_33a1ccb41a_3k.jpg"
+        alt="Students walking on campus"
+      />
+      <h3>Hands-On Ministry Experience</h3></a
+    >
+  </div>
+</section>
+<section class="full-width next-step">
+  <h2>Next Steps</h2>
+  <p>
+    Ready to take the next step in your ministry journey? We're here to help you explore all that
+    Omaha School of Ministry has to offer. Whether you want to visit our campus, apply for
+    admission, or simply request more information, we're here to support you every step of the way.
+  </p>
+  <div class="row">
+    <a href="/apply">Apply</a>
+    <a href="/visit">Schedule a Visit</a>
+    <a href="/info">Request Info</a>
+  </div>
+</section>
+<section class="narrow news">
+  <h2>News</h2>
+</section>
 {{ end }}
