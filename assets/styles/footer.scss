@@ -83,3 +83,19 @@ footer .sub-row {
     text-decoration: none;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  footer .main-row {
+    grid-template-columns: minmax(0, 1fr);
+    grid-gap: 24px;
+  }
+
+  footer .sub-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .sub-footer {
+    grid-template-columns: minmax(0, 1fr);
+    grid-gap: 18px;
+  }
+}

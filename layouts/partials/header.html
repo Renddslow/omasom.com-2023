@@ -21,4 +21,44 @@
       <a href="/current-students">Current Students</a>
     </div>
   </nav>
+  <div class="mobile-grid menu-row">
+    <a href="/search" class="search-button"
+      ><span class="material-symbols-outlined"> search </span> Search</a
+    >
+    <button class="menu-button">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
+  </div>
+  <div class="mobile menu">
+    <button class="close"><span class="material-symbols-outlined">close</span></button>
+    <div class="main-nav">
+      <a href="/about">About</a>
+      <a href="/academics">Academics</a>
+      <a href="/admissions">Admissions</a>
+      <a href="/flatland">Flatland Church</a>
+      <a href="/current-students">Current Students</a>
+    </div>
+    <div class="sub-nav">
+      <a href="/give">Calendars</a>
+      <a href="/give">Give</a>
+      <a href="/news">News</a>
+      <a href="/parents">Parents</a>
+    </div>
+  </div>
 </header>
+<script>
+  (() => {
+    document.querySelector('.menu-button').addEventListener('click', () => {
+      const menu = document.querySelector('.menu');
+      if (menu.classList.contains('open')) {
+        menu.classList.remove('open');
+      } else {
+        menu.classList.add('open');
+      }
+    });
+
+    document.querySelector('.close').addEventListener('click', () => {
+      document.querySelector('.menu').classList.remove('open');
+    });
+  })();
+</script>

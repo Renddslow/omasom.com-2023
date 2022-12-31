@@ -21,7 +21,7 @@ nav {
   grid-template-columns: minmax(0, 1fr);
 }
 
-.sub-nav {
+nav .sub-nav {
   margin-left: auto;
   display: grid;
   grid-auto-flow: column;
@@ -71,5 +71,98 @@ nav .main-nav {
 
   svg {
     width: 100%;
+  }
+
+  @media screen and (max-width: 1024px) {
+    width: 150px;
+  }
+}
+
+.mobile.menu {
+  height: 100vh;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  padding: 96px 48px 48px;
+  right: 0;
+  box-shadow: none;
+  transform: translateX(101%);
+
+  &.open {
+    box-shadow: 0 0 24px 36px rgba(0, 0, 0, 0.2);
+    transform: translateX(0);
+  }
+
+  .main-nav {
+    grid-gap: 24px;
+    font-size: 18px;
+    font-weight: 600;
+    display: grid;
+
+    a {
+      color: var(--text-color);
+    }
+  }
+
+  .sub-nav {
+    display: grid;
+    grid-gap: 24px;
+    align-items: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 24px;
+
+    a {
+      color: var(--blue);
+    }
+  }
+}
+
+.menu-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, max-content));
+  align-items: center;
+  grid-gap: 12px;
+}
+
+.menu-button,
+.close {
+  display: block;
+  width: 24px;
+  height: 24px;
+  appearance: none;
+  border: 0;
+  background: transparent;
+
+  &:hover,
+  &:focus {
+    background: #ccc;
+  }
+}
+
+.close {
+  position: absolute;
+  top: 48px;
+  right: 48px;
+}
+
+.mobile,
+.mobile-grid {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  nav {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .mobile-grid {
+    display: grid;
   }
 }
