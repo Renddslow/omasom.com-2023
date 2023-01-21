@@ -41,9 +41,41 @@
 
   .body p:not(.image),
   .body ul,
-  .body ol {
+  .body ol,
+  .body h3 {
     max-width: 960px;
     padding: 0 24px;
-    margin: 0 auto;
+    margin: 12px auto;
   }
+
+  h2 {
+    text-align: center;
+    width: 100%;
+    margin: 24px auto;
+  }
+
+  h3 {
+    margin-top: 32px !important;
+  }
+}
+
+.cta a,
+a.cta {
+  display: block;
+  color: #fff;
+  background: var(--blue);
+  padding: 12px 24px;
+  border-radius: 2px;
+  text-align: center;
+  width: max-content;
+  text-decoration: none;
+}
+
+p.cta {
+  display: block;
+  margin: 24px auto !important;
+}
+
+p.cta.center {
+  width: max-content;
 }

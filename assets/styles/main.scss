@@ -27,8 +27,14 @@ body {
   padding: 24px;
 }
 
+a {
+  color: var(--blue);
+  font-weight: 600;
+}
+
 @import 'header';
 @import 'footer';
 @import 'content';
 @import 'home';
 @import 'page';
+@import 'mentors';

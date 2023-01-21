@@ -1,0 +1,19 @@
+<div class="mentor-grid">
+  {{ range $.Site.Data.mentors }}
+  <div class="mentor">
+    <div class="image-wrapper">
+      <img src="{{ .image }}" alt="{{ .name }}" />
+    </div>
+    <p class="name">{{ .name }}</p>
+    <p class="title">{{ .title }}</p>
+    <div>
+      <span><strong>Tracks</strong></span>
+      <ul>
+        {{ range .tracks }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+  {{ end }}
+</div>
