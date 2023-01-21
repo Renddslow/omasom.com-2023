@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section class="single content">
+  {{ if .Params.Image }}
+  <div class="image-block">
+    <img src="{{ .Params.Image }}" alt="{{ .Title }}" />
+    <h1>{{ .Title }}</h1>
+  </div>
+  {{ else }}
+  <div class="header-block">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Params.Description }}</p>
+  </div>
+  {{ end }}
+  <div class="body">{{ .Content }}</div>
+</section>
+{{ end }}

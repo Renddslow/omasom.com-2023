@@ -1,0 +1,49 @@
+.single {
+  h1 {
+    font-size: 48px;
+    font-weight: 800;
+  }
+
+  .header-block {
+    max-width: 960px;
+    padding: 0 24px;
+    margin: 0 auto;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 640px;
+    margin: 24px 0 0;
+  }
+
+  .image {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    height: 450px;
+    overflow: hidden;
+    margin: 24px 0;
+
+    img {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+      object-position: right;
+      height: 100%;
+    }
+  }
+
+  .body {
+    padding: 0 0 48px;
+  }
+
+  .body p:not(.image),
+  .body ul,
+  .body ol {
+    max-width: 960px;
+    padding: 0 24px;
+    margin: 0 auto;
+  }
+}

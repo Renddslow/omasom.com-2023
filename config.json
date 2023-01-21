@@ -1,0 +1,16 @@
+{
+  "baseurl": "https://omasom.com/",
+  "languageCode": "en-us",
+  "title": "Omaha School of Ministry",
+  "markup": {
+    "goldmark": {
+      "parser": {
+        "attribute": {
+          "block": true,
+          "title": true
+        },
+        "wrapStandAloneImageWithinParagraph": false
+      }
+    }
+  }
+}
