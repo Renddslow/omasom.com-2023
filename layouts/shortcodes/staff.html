@@ -1,0 +1,12 @@
+<div class="staff-directory-grid">
+  {{ range $.Site.Data.directory }}
+  <div class="">
+    <h3>{{ .title }}</h3>
+    <p>Hours: {{ with .hours }}{{ . }}{{ else }}N/A{{ end }}</p>
+    {{ with .phone }}
+    <p><a href="tel:{{ . }}">{{ . }}</a></p>
+    {{ end }}
+    <p><a href="mailto:{{ .email }}">{{ .email }}</a></p>
+  </div>
+  {{ end }}
+</div>

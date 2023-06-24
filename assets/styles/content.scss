@@ -5,3 +5,14 @@ h2 {
   font-weight: 600;
   max-width: 600px;
 }
+
+.staff-directory-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 24px;
+  max-width: 960px;
+  margin: 0 auto;
+  @media screen and (max-width: 768px) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

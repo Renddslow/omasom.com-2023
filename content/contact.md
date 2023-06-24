@@ -11,3 +11,7 @@ Omaha, NE 68116
 
 [(402) 492-9111](tel:+14024929111)
 {{< /location>}}
+
+## Staff Directory
+
+{{< staff >}}
