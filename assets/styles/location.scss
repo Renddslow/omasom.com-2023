@@ -1,0 +1,56 @@
+.osm-location img {
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  object-fit: cover;
+}
+
+.location-card {
+  background: var(--orange);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 24px;
+  padding: 24px;
+  position: absolute;
+  z-index: 2;
+  width: 400px;
+  right: 0;
+  margin: 48px;
+  font-size: 18px;
+  border-radius: 4px;
+
+  p {
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+.osm-location {
+  width: 100%;
+  aspect-ratio: 2/1;
+  display: block;
+  position: relative;
+  margin-top: 24px;
+
+  @media screen and (max-width: 1024px) {
+    position: relative;
+
+    .location-card,
+    img {
+      position: relative;
+      margin: 0;
+    }
+
+    img {
+      aspect-ratio: 1/2;
+    }
+
+    .location-card {
+      width: 100%;
+    }
+  }
+}

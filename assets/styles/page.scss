@@ -10,7 +10,8 @@
     margin: 0 auto;
   }
 
-  p {
+  p,
+  li {
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
@@ -22,7 +23,7 @@
     width: 100%;
     max-width: 100%;
     display: block;
-    height: 450px;
+    aspect-ratio: 932 / 450;
     overflow: hidden;
     margin: 24px 0;
 
@@ -42,10 +43,31 @@
   .body p:not(.image),
   .body ul,
   .body ol,
-  .body h3 {
+  .body h3,
+  .body h2.simple,
+  .body table {
     max-width: 960px;
     padding: 0 24px;
     margin: 12px auto;
+  }
+
+  ol {
+    counter-reset: item;
+  }
+
+  ol li {
+    display: block;
+  }
+
+  ol li:before {
+    content: counters(item, '.') '. ';
+    counter-increment: item;
+    margin-right: 8px;
+  }
+
+  .body ul,
+  .body ol {
+    padding-left: 48px;
   }
 
   h2 {
@@ -78,4 +100,36 @@ p.cta {
 
 p.cta.center {
   width: max-content;
+}
+
+.body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  border-spacing: 0;
+  border-collapse: collapse;
+  font-size: 18px;
+  margin-bottom: 28px !important;
+}
+
+.body tbody tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1;
+}
+
+.body tbody tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+.body td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+.body h2.simple {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, roboto, oxygen, ubuntu, fira sans,
+    droid sans, helvetica neue, sans-serif;
+  text-align: left;
 }

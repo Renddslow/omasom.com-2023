@@ -8,7 +8,7 @@
   {{ else }}
   <div class="header-block">
     <h1>{{ .Title }}</h1>
-    <p>{{ .Params.Description }}</p>
+    <p>{{ .Params.Description | markdownify }}</p>
   </div>
   {{ end }}
   <div class="body">{{ .Content }}</div>
