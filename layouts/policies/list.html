@@ -1,0 +1,15 @@
+{{ define "main" }}
+<section class="single content">
+  <div class="header-block">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Params.Description | markdownify }}</p>
+  </div>
+  <div class="body">
+    <ul>
+      {{ range .Pages }} {{ if and (ne .Title "Terms of Use") (ne .Title "Privacy") }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }} {{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}
