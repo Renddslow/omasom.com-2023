@@ -1,19 +1,62 @@
-Welcome Message: Begin the page with a warm welcome and a brief introduction to the institution's mission, values, and educational approach. Emphasize the partnership between the institution and parents in the students' academic and personal growth.
+---
+title: Parent Resources
+image: 'https://images.unsplash.com/photo-1549057446-9f5c6ac91a04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2668&q=80'
+---
 
-About the School: Provide an overview of the school, including its history, accreditation, faculty, and any notable achievements. Highlight the institution's commitment to academic excellence, spiritual development, and character formation.
+## Explore
 
-Academic Programs: Outline the various academic programs offered by the school of ministry or university. Include information about majors, minors, concentrations, and any unique programs or partnerships. Explain how these programs align with the institution's mission and provide students with a well-rounded education.
+At Omaha School of Ministry we are committed to providing an environment where students can explore their gifts and their calling to ministry. We believe that God has a plan for each student, and we want to equip them for that plan. Below are some resources to help you and your student explore what Omaha School of Ministry has to offer.
 
-Campus Facilities and Resources: Describe the campus facilities available to students, such as classrooms, libraries, research centers, chapels, and recreational areas. Highlight any specialized facilities or resources related to the school's ministry focus, such as chaplaincy centers, prayer rooms, or counseling services.
+{{< grid >}}
+{{< block href="/tuition" >}}
 
-Student Life: Discuss the vibrant student life on campus, including student organizations, clubs, societies, and extracurricular activities. Mention any spiritual development opportunities, such as worship services, retreats, mission trips, or community service programs. Emphasize the institution's commitment to fostering a supportive and inclusive environment for students.
+### Tuition and Scholarships
 
-Campus Safety and Security: Assure parents of the institution's dedication to campus safety and security. Provide information about measures in place to protect students, such as security personnel, emergency protocols, and safety training programs. If applicable, include details about residential life, housing options, and residential staff.
+Find financial assistance for your student's education through scholarships and funding options at the school.
 
-Admissions and Enrollment: Provide an overview of the admissions process, including application requirements, deadlines, and contact information for the admissions office. Include details about financial aid options, scholarships, and tuition fees. If relevant, mention any specific admission considerations for students interested in the school of ministry.
+{{< /block >}}
 
-Academic Support: Explain the academic support services available to students, such as tutoring programs, writing centers, career counseling, and academic advising. Highlight the institution's commitment to helping students succeed academically and develop essential skills for their future careers.
+{{< block href="/registrar" >}}
 
-Parent Engagement Opportunities: Encourage parents to get involved in the school community and provide information about parent-teacher associations, volunteer opportunities, or parent-focused events. Share resources or links to platforms where parents can stay informed about school news, events, and their child's academic progress.
+### Registrar
 
-Contact Information: Provide clear contact information for the relevant departments, such as admissions, financial aid, student affairs, and academic advising. Include phone numbers, email addresses, and office hours to ensure that parents can easily reach out for assistance or further information
+Access academic services like enrollment, transcripts, and degree verification through our registrar's office.
+
+{{< /block >}}
+
+{{< block href="/doctrinal-statement" >}}
+
+### Beliefs
+
+Discover our school's principles, promoting diversity, inclusivity, and fostering intellectual growth in a welcoming community.
+
+{{< /block >}}
+{{< /grid >}}
+
+## For your student
+
+{{< grid >}}
+{{< block href="/student-handbook" >}}
+
+### Student Handbook
+
+Access important policies, resources, and guidelines to navigate student life at the school effectively.
+
+{{< /block >}}
+
+{{< block href="/student-accounts" >}}
+
+### Student Accounts
+
+Manage tuition payments, financial aid, and student billing conveniently through our student accounts services.
+
+{{< /block >}}
+
+{{< block href="/housing" >}}
+
+### Housing
+
+Explore comfortable and affordable on-campus housing options for your child's stay at the school.
+
+{{< /block >}}
+{{< /grid >}}

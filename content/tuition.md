@@ -1,0 +1,3 @@
+---
+title: Tuition and Scholarships
+---

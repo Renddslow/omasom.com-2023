@@ -23,7 +23,7 @@
     width: 100%;
     max-width: 100%;
     display: block;
-    aspect-ratio: 932 / 450;
+    aspect-ratio: 900 / 300;
     overflow: hidden;
     margin: 24px 0;
 
@@ -31,7 +31,7 @@
       width: 100%;
       display: block;
       object-fit: cover;
-      object-position: right;
+      object-position: top right;
       height: 100%;
     }
   }

@@ -3,6 +3,16 @@ title: 'About'
 description: 'Omaha School of Ministry is a charismatic, Evangelical, interdenominational post-secondary institution based in the Omaha Metro Area. We exist to produce and equip well-trained, highly-qualified ministers to expand the Kingdom of God.'
 ---
 
+{{< row >}}
+
+[Meet Our Faculty and Staff](/staff-faculty)
+{.cta}
+
+[Doctrinal Statement](/doctrinal-statement)
+{.cta}
+
+{{< /row >}}
+
 ![professor](https://images.unsplash.com/photo-1580894732444-8ecded7900cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80)
 {.image}
 
