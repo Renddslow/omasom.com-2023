@@ -36,6 +36,10 @@
     }
   }
 
+  .image.mid img {
+    object-position: center right;
+  }
+
   .image-block {
     width: 100%;
     padding: 140px 0;
@@ -92,16 +96,6 @@
 
   ol {
     counter-reset: item;
-  }
-
-  ol li {
-    display: block;
-  }
-
-  ol li:before {
-    content: counters(item, '.') '. ';
-    counter-increment: item;
-    margin-right: 8px;
   }
 
   .body ul,

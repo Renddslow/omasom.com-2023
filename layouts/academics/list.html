@@ -1,0 +1,9 @@
+{{ define "main" }}
+<section class="single content">
+  <div class="header-block">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Params.Description | markdownify }}</p>
+  </div>
+  <div class="body"></div>
+</section>
+{{ end }}

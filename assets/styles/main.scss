@@ -39,3 +39,9 @@ a {
 @import 'page';
 @import 'mentors';
 @import 'location';
+
+.application-form {
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+}
