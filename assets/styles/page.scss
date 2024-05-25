@@ -104,13 +104,21 @@
   }
 
   h2 {
-    text-align: center;
     width: 100%;
-    margin: 24px auto;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 24px;
   }
 
   h3 {
     margin-top: 32px !important;
+  }
+}
+
+.body:not(.flush) {
+  h2 {
+    text-align: center;
+    margin: 24px auto;
   }
 }
 
@@ -165,4 +173,26 @@ p.cta.center {
   font-family: -apple-system, BlinkMacSystemFont, segoe ui, roboto, oxygen, ubuntu, fira sans,
     droid sans, helvetica neue, sans-serif;
   text-align: left;
+}
+
+table.degree {
+  .category {
+    background: #000 !important;
+    font-size: 18px;
+    color: #efefef;
+    text-align: left;
+
+    th {
+      padding: 12px;
+    }
+  }
+
+  tr {
+    background: #fff !important;
+    border: 0;
+  }
+
+  td {
+    border: 0;
+  }
 }

@@ -19,7 +19,7 @@
 <div class="narrow tagline">
   <div class="tagline-box">
     <h2>{{ .Params.Tagline | safeHTML }}</h2>
-    <p>{{ .Params.TheologyStatement }}</p>
+    <p>{{ index (split .Params.TheologyStatement "<br />") 0 }}</p>
   </div>
   <img
     src="{{ .Params.Image }}"
@@ -27,26 +27,27 @@
   />
 </div>
 <section class="full-width apply-banner">
+  <p>{{ index (split .Params.TheologyStatement "<br />") 1 }}</p>
   <a href="/apply">Apply for {{ .Params.NextAcademicPeriod }}</a>
 </section>
 <section class="narrow campus-life">
-  <h2>Life at Omaha School of Ministry</h2>
-  <p>{{ .Params.CampusLife }}</p>
+  <h2>Producing Highly-Qualified Ministers</h2>
+  <p>{{ .Params.Academics }}</p>
   <div class="grid">
-    <a href="/omaha" class="box">
+    <a href="/academics" class="box">
+      <img src="/53078115253_3b4676c9c3_w.jpg" alt="Students in a classroom" />
+      <h3>Academics</h3>
+    </a>
+    <a href="/ordination" class="box">
+      <img src="/52919264017_7a70b5ea1a_w.jpg" alt="Ordination service" />
+      <h3>Credentialing &amp; Ordination Track</h3>
+    </a>
+    <a href="/flatland" class="box">
       <img
-        src="https://images.unsplash.com/photo-1519766030446-ae88fde27309?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80"
-        alt="Henry Doorly zoo in Omaha"
+              src="https://live.staticflickr.com/65535/52404165552_33a1ccb41a_3k.jpg"
+              alt="Students walking on campus"
       />
-      <h3>Living in Omaha</h3>
-    </a>
-    <a href="/spiritual-life" class="box">
-      <img src="/53070680636_37ecff4909_w.jpg" alt="Prayer service" />
-      <h3>Spiritual Life</h3>
-    </a>
-    <a href="/student-experience" class="box">
-      <img src="/52437241567_2f6aa8fb54_w.jpg" alt="Students walking on campus" />
-      <h3>Student Experience</h3></a
+      <h3>Hands-On Ministry Experience</h3></a
     >
   </div>
 </section>
@@ -72,23 +73,23 @@
   </div>
 </section>
 <section class="narrow campus-life">
-  <h2>Producing Highly-Qualified Ministers</h2>
-  <p>{{ .Params.Academics }}</p>
+  <h2>Life at Omaha School of Ministry</h2>
+  <p>{{ .Params.CampusLife }}</p>
   <div class="grid">
-    <a href="/academics" class="box">
-      <img src="/53078115253_3b4676c9c3_w.jpg" alt="Students in a classroom" />
-      <h3>Academics</h3>
-    </a>
-    <a href="/ordination" class="box">
-      <img src="/52919264017_7a70b5ea1a_w.jpg" alt="Ordination service" />
-      <h3>Credentialing &amp; Ordination Track</h3>
-    </a>
-    <a href="/flatland" class="box">
+    <a href="/omaha" class="box">
       <img
-        src="https://live.staticflickr.com/65535/52404165552_33a1ccb41a_3k.jpg"
-        alt="Students walking on campus"
+              src="https://images.unsplash.com/photo-1519766030446-ae88fde27309?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80"
+              alt="Henry Doorly zoo in Omaha"
       />
-      <h3>Hands-On Ministry Experience</h3></a
+      <h3>Living in Omaha</h3>
+    </a>
+    <a href="/spiritual-life" class="box">
+      <img src="/53070680636_37ecff4909_w.jpg" alt="Prayer service" />
+      <h3>Spiritual Life</h3>
+    </a>
+    <a href="/student-experience" class="box">
+      <img src="/52437241567_2f6aa8fb54_w.jpg" alt="Students walking on campus" />
+      <h3>Student Experience</h3></a
     >
   </div>
 </section>

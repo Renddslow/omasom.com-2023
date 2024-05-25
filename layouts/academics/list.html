@@ -4,6 +4,8 @@
     <h1>{{ .Title }}</h1>
     <p>{{ .Params.Description | markdownify }}</p>
   </div>
-  <div class="body"></div>
+  <div class="body flush">
+    {{ .Content }}
+  </div>
 </section>
 {{ end }}
