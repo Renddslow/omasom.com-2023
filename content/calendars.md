@@ -1,5 +1,5 @@
 ---
-title: 2023–24 Academic Calendar
+title: 2024–25 Academic Calendar
 ---
 
 ## Enrollment {.simple}
@@ -35,3 +35,5 @@ title: 2023–24 Academic Calendar
 | May 5–9     | Year 2 Capstone Seminar |
 | May 9–10    | Year End Prayer Retreat |
 | May 11      | Commencement            |
+
+Students are invited to celebrated Good Friday through Easter Sunday (April 18–20) with their families at their home churches. All normal assignment will still be due per their individual course syllabi. Students are asked to communicate early to their ministry team leaders about their ability to serve at Flatland Church during this time.
