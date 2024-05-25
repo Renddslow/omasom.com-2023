@@ -44,7 +44,7 @@ Access important policies, resources, and guidelines to navigate student life at
 
 {{< /block >}}
 
-{{< block href="/student-accounts" >}}
+{{< block href="https://osm.populiweb.com/" >}}
 
 ### Student Accounts
 
