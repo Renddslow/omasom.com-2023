@@ -8,6 +8,8 @@ The two year, full-time...
 
 ## Curriculum
 
+OSM curriculum is designed to provide students with a deep understanding of the Bible.
+
 ## Course List
 
 <table class="degree">
@@ -18,32 +20,42 @@ The two year, full-time...
         <tr>
             <td>BIB-101</td>
             <td>How to Read Biblical Narrative</td>
+            <td>3</td>
         </tr>
         <tr>
             <td>BIB-111</td>
             <td>Torah</td>
+            <td>3</td>
         </tr>
         <tr>
             <td>BIB-112</td>
             <td>Nevi'im (Prophets)</td>
+            <td>3</td>
         </tr>
         <tr>
             <td>BIB-113</td>
             <td>Ketuvim (Writings)</td>
+            <td>3</td>
         </tr>
         <tr>
             <td>BIB-102</td>
-            <td>How to Read Biblical Prose-Discourse</td></tr>
+            <td>How to Read Biblical Prose-Discourse</td>
+            <td>3</td>
+        </tr>
         <tr>
             <td>BIB-121</td>
-            <td>Gospels and Acts</td></tr>
+            <td>Gospels and Acts</td>
+            <td>3</td>
+        </tr>
         <tr>
             <td>BIB-122</td>
             <td>Epistles and Revelation</td>
+            <td>3</td>
         </tr>
         <tr>
             <td>BIB-290</td>
             <td>Text & Canon</td>
+            <td>3</td>
         </tr>
         <tr class="category">
             <th colspan="3">Theological Studies: 12 credits</th>

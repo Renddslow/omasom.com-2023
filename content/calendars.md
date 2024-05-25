@@ -11,25 +11,27 @@ title: 2023–24 Academic Calendar
 
 ## School Year {.simple}
 
-**Fall 2023**
+**Fall 2024**
 
-| Date          | Event                 |
-| ------------- | --------------------- |
-| Aug 24        | OSM Begins            |
-| Aug 28        | Fall Session A Begins |
-| Oct 21        | Fall Session A Ends   |
-| Oct 22        | Fall Session B Begins |
-| Nov 20-Nov 26 | Fall Break            |
-| Dec 23        | Fall Session B Ends   |
-| Dec 24-Jan 13 | Winter Break          |
+| Date         | Event                 |
+| ------------ | --------------------- |
+| Aug 16–17    | Prayer Retreat        |
+| Aug 19       | Fall Session A Begins |
+| Oct 13       | Fall Session A Ends   |
+| Oct 14       | Fall Session B Begins |
+| Nov 24-Dec 1 | Fall Break            |
+| Dec 15       | Fall Session B Ends   |
+| Dec 16-Jan 5 | Winter Break          |
 
-**Spring 2024**
+**Spring 2025**
 
-| Date          | Event                   |
-| ------------- | ----------------------- |
-| Jan 14        | Spring Session A Begins |
-| Mar 9         | Spring Session A Ends   |
-| Mar 10-Mar 16 | Spring Break            |
-| Mar 17        | Spring Session B Begins |
-| May 13        | Spring Session B Ends   |
-| May 13        | OSM Year Ends           |
+| Date        | Event                   |
+| ----------- | ----------------------- |
+| Jan 5       | Spring Session A Begins |
+| Mar 2       | Spring Session A Ends   |
+| Mar 3-Mar 9 | Spring Break            |
+| Mar 10      | Spring Session B Begins |
+| May 4       | Spring Session B Ends   |
+| May 5–9     | Year 2 Capstone Seminar |
+| May 9–10    | Year End Prayer Retreat |
+| May 11      | Commencement            |

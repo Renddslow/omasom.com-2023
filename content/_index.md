@@ -1,7 +1,7 @@
 ---
 title: Omaha School of Ministry
 tagline: 'Equipping You to Impact Eternity'
-nextAcademicPeriod: 'Fall 2023'
+nextAcademicPeriod: 'Fall 2024'
 image: '/fc-jumbo.jpeg'
 theologyStatement: 'An evolving world calls for new methods of training and learning. At Omaha School of Ministry we focus on providing an affordable, powerful, and engaging pathway to your future in ministry.<br />Omaha School of Ministry is a place where rigorous academic education rooted in the authority of the Scriptures meets the empowerment of the Holy Spirit. We believe that the Word of God is living and active, and that the Spirit is at work in our lives to equip and empower us for service. Whether you are preparing for full-time ministry or simply seeking to grow in your personal relationship with Christ, we offer an accredited education that will help you to grow and thrive as a servant of Christ.'
 campusLife: "Located on the campus of Flatland Church in Omaha, our small and intimate setting offers a unique opportunity to immerse yourself in church life and experience all that the city of Omaha has to offer. Whether you are participating in ministry internships, attending prayer, or simply hanging out with classmates, you\'ll find a supportive and welcoming community that will help you to grow and thrive in your faith journey."

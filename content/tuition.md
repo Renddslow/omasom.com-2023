@@ -5,7 +5,7 @@ description: Our aim as a school is to produce the next generation of ministers 
 
 ## Tuition
 
-The information here applies to incoming students for the 2023-2024 academic year. Tuition and fees are subject to change. The rates below are all the total cost before any scholarships or financial aid.
+The information here applies to incoming students for the 2024-2025 academic year. Tuition and fees are subject to change. The rates below are all the total cost before any scholarships or financial aid.
 
 |                                               |               |
 | --------------------------------------------- | ------------- |
@@ -28,7 +28,9 @@ Presently, we do not offer on-campus housing. However, we do partner with famili
 
 We offer a variety of scholarships to help students achieve their educational goals. All scholarships are applied to the student's account at the beginning of each semester.
 
-|                               |               |                                                                                                            |
-| ----------------------------- | ------------- | ---------------------------------------------------------------------------------------------------------- |
-| Ministry Resident Scholarship | $225/semester | Available to students taking enrolled in 12 or more credits and enrolled in the Ministry Resident program. |
-| Summer Scholars               | $225/semester | Available to students taking enrolled in 12 or more credits during the summer semester.                    |
+|                                  |                 |                                                                                                                                                                                                                                                                                                                                                       |
+| -------------------------------- | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Academic Excellence              | up to $500/year | This scholarship is awarded to students who have worked hard and excelled academically. This is based upon previous education performance, either in high school, college, or the previous OSM year if applicable. Evaluated on factors such as GPA, ACT/SAT scores, and any awards received.                                                         |
+| Ministry Involvement Scholarship | up to $500/year | Ministry involvement scholarships are awarded to students who have been an active participant in ministry activities, either in their local church, school, sports, or extracurricular activities. Evaluated based upon ministry involvement, a recommendation from a pastor or ministry leaders, and a written essay.                                |
+| Program Achievement              | up to $500/year | Program achievement scholarships are awarded to students who excel in the OSM program. Students who demonstrate great work ethic, a heart for ministry, and excel in their studies are eligible for this scholarship. Evaluated based upon previous year/semester's academic performance, attitude in ministry roles, and other program achievements. |
+| Ministry Residence Scholarship   | $225/semester   | For students who are enrolled full-time at OSM, and are enrolled in the Ministry Residence program, they automatically receive a discount on tuition.                                                                                                                                                                                                 |
