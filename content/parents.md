@@ -16,11 +16,11 @@ Find financial assistance for your student's education through scholarships and 
 
 {{< /block >}}
 
-{{< block href="/registrar" >}}
+{{< block href="/academics" >}}
 
-### Registrar
+### Academics
 
-Access academic services like enrollment, transcripts, and degree verification through our registrar's office.
+Learn about our academic programs, course offerings, and academic calendar to help your student succeed in their studies.
 
 {{< /block >}}
 
@@ -56,7 +56,7 @@ Manage tuition payments, financial aid, and student billing conveniently through
 
 ### Housing
 
-Explore comfortable and affordable on-campus housing options for your child's stay at the school.
+Explore comfortable and affordable housing options for your child's stay at OSM.
 
 {{< /block >}}
 {{< /grid >}}

@@ -196,3 +196,27 @@ table.degree {
     border: 0;
   }
 }
+
+iframe {
+  margin: 0 auto;
+  display: block;
+}
+
+blockquote {
+  background: #ccc;
+  padding: 12px 24px;
+  border-left: 8px solid #999;
+  border-radius: 4px;
+  width: max-content;
+  max-width: 960px;
+  margin: 0 auto;
+
+  p {
+    line-height: 1.2 !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-weight: 500;
+    font-style: italic;
+  }
+}

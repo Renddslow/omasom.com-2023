@@ -57,20 +57,40 @@ nav .main-nav {
   }
 }
 
-#logo h1 {
-  width: 1px;
-  height: 1px;
-  position: absolute;
-  left: -999px;
-  overflow: hidden;
-  z-index: -999;
+#logo {
+  display: flex;
+  align-items: center;
+  grid-gap: 24px;
+  justify-content: start;
+
+  h1 {
+    text-align: left;
+    font-size: 12px;
+  }
+
+  h1 span.som {
+    color: #000;
+    display: block;
+    font-size: 1em;
+  }
+
+  h1 span.omaha {
+    color: var(--accent);
+    font-size: 2em;
+    font-weight: 800;
+  }
 }
 
 .logo {
-  width: 200px;
+  width: 100px;
 
   svg {
     width: 100%;
+
+    * {
+      fill: var(--accent);
+      stroke: var(--accent);
+    }
   }
 
   @media screen and (max-width: 1024px) {
@@ -155,6 +175,10 @@ nav .main-nav {
 }
 
 @media screen and (max-width: 1024px) {
+  #logo h1 {
+    font-size: 20px;
+  }
+
   nav {
     display: none;
   }
@@ -165,5 +189,12 @@ nav .main-nav {
 
   .mobile-grid {
     display: grid;
+  }
+}
+
+@media screen and (max-width: 628px) {
+  #logo h1 {
+    position: absolute;
+    left: -100vw;
   }
 }
